@@ -20,6 +20,10 @@
 		padding-top: 40px;
 		padding-bottom: 40px;
 }
+	.btn-block {
+		display: block;
+		width: 100%;
+}
 </style>
 
 </head>
@@ -31,7 +35,7 @@
 		<div class="card">
 		<div class="card-content">
 			<span class="card-title activator grey-text text-darken-4">ログイン</span>
-			<form class="col s12" action="" method="get">
+			<form class="col s12" action="" method="post">
 				<div class="row">
 			        <div class="input-field col s12">
 						<input id="loginId" type="text" class="validate" name="login" value="">
@@ -42,7 +46,7 @@
 						<label for="password">パスワード</label>
 			        </div>
 			        <div class="col s12">
-						<button class="btn waves-effect waves-light" type="submit" name="check" value="ログイン" >ログイン</button>
+						<button class="btn waves-effect waves-light btn-block" type="submit" name="check" value="1" >ログイン</button>
 			        </div>
 				</div>
 			</form>
